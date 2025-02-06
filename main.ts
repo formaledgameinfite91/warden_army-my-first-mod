@@ -1,0 +1,11 @@
+player.onChat("summon warden_army", function () {
+    mobs.spawn(mobs.monster(WARDEN), player.position())
+    mobs.spawn(mobs.monster(WARDEN), player.position())
+    mobs.spawn(mobs.monster(WARDEN), player.position())
+    mobs.spawn(mobs.monster(WARDEN), player.position())
+    mobs.spawn(mobs.monster(WARDEN), player.position())
+    mobs.spawn(mobs.monster(WARDEN), player.position())
+    mobs.spawn(mobs.monster(WARDEN), player.position())
+    mobs.spawn(mobs.monster(WARDEN), player.position())
+    player.say("Warden Army summoned")
+})
